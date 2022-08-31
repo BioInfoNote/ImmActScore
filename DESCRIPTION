@@ -1,0 +1,18 @@
+Package: ImmActScore
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: YunSen
+Maintainer:  <bioinfonote@aliyun.com>
+Description: The main function to calculating immune activity levels based on ssGSEA algorithm,
+both for multiple samples and single sample profile.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 3.5)
+Imports: 
+    e1071,
+    parallel,
+    preprocessCore
